@@ -12,6 +12,7 @@
   --modal-overlay: #2e2f42;
   --hero-background: #2e2f42;
   --white: #ffffff;
+  --dark-gradient: rgba(46, 47, 66, 0.7);
 }
 
 body {
@@ -210,6 +211,11 @@ img {
 .hero {
   background-color: var(--dark);
 
+  background-image: var(--dark-gradient), url(../images/hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   text-align: center;
 }
 
@@ -279,10 +285,6 @@ img {
   display: flex;
   gap: 24px;
 }
-
-.about-item {
-}
-
 /* team */
 
 .team {
