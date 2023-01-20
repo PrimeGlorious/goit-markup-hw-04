@@ -12,7 +12,10 @@
   --modal-overlay: #2e2f42;
   --hero-background: #2e2f42;
   --white: #ffffff;
-  --dark-gradient: rgba(46, 47, 66, 0.7);
+  --dark-gradient: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  );
 }
 
 body {
